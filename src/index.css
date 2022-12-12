@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --purple: #50f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#root {
+    position: absolute;
+    inset: 0;
+}
+
+.color-purple {
+    color: var(--purple);
+}
+
+.background-purple {
+    background: var(--purple);
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}
