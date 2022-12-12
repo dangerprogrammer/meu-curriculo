@@ -3,7 +3,6 @@ import { BigHead } from '@bigheads/core';
 
 import './MainPage.css';
 
-import ProfilePhoto from '../../assets/imgs/profile-photo.png';
 import PythonFavicon from '../../assets/imgs/python-favicon.png';
 import VbaFavicon from '../../assets/imgs/vba-favicon.png';
 import VueJSFavicon from '../../assets/imgs/vue-js-favicon.png';
